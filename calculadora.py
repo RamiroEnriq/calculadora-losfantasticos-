@@ -5,7 +5,7 @@ def suma (a,b):#funcion sumar
 def resta (a,b):#funcion restar
     print(f"realizacion de la resta de {a} - {b}...")
     return a-b
-def multiplicacion (a,b):#funcion multiplicar
+def multiplicacion (a,b):#funcion multiplicar 
     print(f"realizacion de la multiplicacion de {a} * {b}...")
     return a*b
 def division (a,b):#funcion dividir
