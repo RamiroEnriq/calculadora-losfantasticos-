@@ -4,6 +4,8 @@ def resta (n1,n2):
     return n1-n2
 def multiplicacion (n1,n2):
     return n1*n2
+def division (n1,n2):
+    return n1/n2
 #comienzo del programa
 while True: #para retroalimentacion del codigo
     print("---seleccione una opcion---")
@@ -16,14 +18,16 @@ while True: #para retroalimentacion del codigo
         n2 = float(input("ingrese el segundo numero: "))
 
         #este bloque se conecta con las respectivas funciones
-        if opcion == 1:
-            print("resultado:  ", suma(n1, n2))
-        elif opcion == 2:
-            print("resultado:  ", resta(n1, n2))
-        elif opcion == 3:
-            print("resultado:  ", multiplicacion(n1, n2))
-        elif opcion == 4:
-            print("resultado:  ", division(n1, n2))
+        if n2!=0:
+          if opcion == 1:
+              print("resultado:  ", suma(n1, n2))
+          elif opcion == 2:
+              print("resultado:  ", resta(n1, n2))
+          elif opcion == 3:
+              print("resultado:  ", multiplicacion(n1, n2))
+          elif opcion == 4:
+              print("resultado:  ", division(n1, n2))
+          else:
+              print ("---opcion NO valida---")
         else:
-            print ("---opcion NO valida---")
-
+          print("no se puede dividir por 0")
