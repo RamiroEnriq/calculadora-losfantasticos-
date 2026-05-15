@@ -9,7 +9,7 @@ Funciones(calculadora): suma
 
                         resta
                         
-                        division
+                        division 
                         
                         multiplicacion
 
